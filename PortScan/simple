@@ -1,0 +1,1 @@
+for /l %a in (1,1,254) do start /min /low telnet 192.168.0.%a 22
