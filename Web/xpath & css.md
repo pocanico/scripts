@@ -35,15 +35,15 @@
 </bookstore>
 ```
 ## 选取节点
-![path](path.png)
+![path](images\path.png)
 
 
-![bookstore](bookstore.png)
+![bookstore](images\bookstore.png)
 
 ## 谓语（Predicates）
 谓语用来查找某个特定的节点或者包含某个指定的值的节点。
 谓语被嵌在方括号中。
-![Predicates](Predicates.png)
+![Predicates](images\Predicates.png)
 
 ## 选取未知节点
-![tongpei](tongpei.png)
+![tongpei](images\tongpei.png)
