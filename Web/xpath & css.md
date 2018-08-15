@@ -35,9 +35,5 @@
 </bookstore>
 ```
 ## 选取节点
-nodename 
-/
-//
-.
-..
-@
+
+![bookstore](bookstore.png)
