@@ -1,0 +1,10 @@
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\bin\Debug\MySQL数据库操作.exe.config
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\bin\Debug\MySQL数据库操作.exe
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\bin\Debug\MySQL数据库操作.pdb
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\bin\Debug\MySql.Data.dll
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\bin\Debug\Google.Protobuf.dll
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\bin\Debug\MySql.Data.xml
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\obj\Debug\MySQL数据库操作.csproj.CoreCompileInputs.cache
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\obj\Debug\MySQL数据库操作.csproj.CopyComplete
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\obj\Debug\MySQL数据库操作.exe
+C:\Users\LY\source\repos\MySQL数据库操作\MySQL数据库操作\obj\Debug\MySQL数据库操作.pdb

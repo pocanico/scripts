@@ -1,0 +1,4 @@
+tthis[SPACE] ia[SPACE] not[SPACE] a[SPACE] test!![LALT][TAB][TAB][ENTER]
+[ENTER]
+this[SPACE] ia[BACK]s[SPACE] not[SPACE] a[SPACE] test[DEL]3[LCTRL]s[LALT][TAB][LALT][TAB][LALT][TAB][TAB][LCTRL]c[LCTRL]c[ENTER]
+tThisisatest!![DEL]2[LCTRL]s

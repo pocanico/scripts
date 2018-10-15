@@ -1,0 +1,13 @@
+﻿  Source.cpp
+c:\users\ly\source\repos\project1\project1\source.cpp(75): warning C4018: '<': signed/unsigned mismatch
+c:\users\ly\source\repos\project1\project1\source.cpp(327): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\project1\project1\source.cpp(402): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\project1\project1\source.cpp(405): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\project1\project1\source.cpp(427): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\project1\project1\source.cpp(749): warning C4101: 'dwThread': unreferenced local variable
+  Generating code
+  1 of 304 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\Users\LY\source\repos\Project1\Release\Project1.exe

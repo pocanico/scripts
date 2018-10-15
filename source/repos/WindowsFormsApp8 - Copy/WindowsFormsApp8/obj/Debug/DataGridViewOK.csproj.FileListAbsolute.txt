@@ -1,0 +1,14 @@
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\bin\Debug\WindowsFormsApp8.exe.config
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\bin\Debug\WindowsFormsApp8.exe
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\bin\Debug\WindowsFormsApp8.pdb
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\bin\Debug\MySql.Data.dll
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\bin\Debug\Google.Protobuf.dll
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\bin\Debug\MySql.Data.xml
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\DataGridViewOK.csprojAssemblyReference.cache
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\WindowsFormsApp8.Form1.resources
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\WindowsFormsApp8.Properties.Resources.resources
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\DataGridViewOK.csproj.GenerateResource.cache
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\DataGridViewOK.csproj.CoreCompileInputs.cache
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\DataGridViewOK.csproj.CopyComplete
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\WindowsFormsApp8.exe
+C:\Users\LY\source\repos\WindowsFormsApp8\WindowsFormsApp8\obj\Debug\WindowsFormsApp8.pdb

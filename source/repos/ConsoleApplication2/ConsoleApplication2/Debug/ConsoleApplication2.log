@@ -1,0 +1,38 @@
+﻿  ConsoleApplication2.cpp
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(33): error C2664: 'DWORD GetEnvironmentVariableW(LPCWSTR,LPWSTR,DWORD)': cannot convert argument 1 from 'const char [8]' to 'LPCWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(33): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(110): error C2664: 'HINTERNET InternetConnectW(HINTERNET,LPCWSTR,INTERNET_PORT,LPCWSTR,LPCWSTR,DWORD,DWORD,DWORD_PTR)': cannot convert argument 2 from 'const char [12]' to 'LPCWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(110): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(117): error C2664: 'BOOL FtpPutFileW(HINTERNET,LPCWSTR,LPCWSTR,DWORD,DWORD_PTR)': cannot convert argument 2 from 'const char [11]' to 'LPCWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(117): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(140): error C2664: 'HINTERNET InternetConnectW(HINTERNET,LPCWSTR,INTERNET_PORT,LPCWSTR,LPCWSTR,DWORD,DWORD,DWORD_PTR)': cannot convert argument 2 from 'const char [12]' to 'LPCWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(140): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(149): error C2664: 'BOOL FtpPutFileW(HINTERNET,LPCWSTR,LPCWSTR,DWORD,DWORD_PTR)': cannot convert argument 2 from 'const char [10]' to 'LPCWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(149): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(166): error C2664: 'DWORD GetModuleFileNameW(HMODULE,LPWSTR,DWORD)': cannot convert argument 2 from 'char [260]' to 'LPWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(166): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(168): error C2664: 'BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)': cannot convert argument 1 from 'const char *' to 'LPCWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(168): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(169): error C2664: 'BOOL CopyFileW(LPCWSTR,LPCWSTR,BOOL)': cannot convert argument 1 from 'const char *' to 'LPCWSTR'
+  c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(169): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(197): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(202): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(203): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(205): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(388): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(463): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(466): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(488): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (936)
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(229): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(230): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(232): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\ly\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(827): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'

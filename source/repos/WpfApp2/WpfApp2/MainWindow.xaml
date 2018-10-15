@@ -1,0 +1,35 @@
+﻿<Window x:Class="CSDN_C.MainWindow"  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+    xmlns:assembly="clr-namespace:System;assembly=mscorlib"   
+    xmlns:local="clr-namespace:Demo"   
+    Title="MainWindow"  Loaded="Window_Loaded">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="keySex" MethodName="GetValues" ObjectType="{x:Type assembly:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="local:Sex"></x:Type>
+                <!--引用后台的枚举类型，为字段‘性别’提供数据源。上面引用了命名空间Demo-->
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+
+    <Grid>
+        <DataGrid Name="dataGrid1"  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="操作" Width="40">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox ></CheckBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="公司名称" Width="80" Binding="{Binding 公司名称, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="姓名" Width="80" Binding="{Binding 职员姓名, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridComboBoxColumn Header="sex" SelectedItemBinding="{Binding 性别}" ItemsSource="{Binding Source={StaticResource keySex}}"/>
+                <!--Combox绑定,获取上面定义的资源keySex.绑定性别-->
+                <DataGridTextColumn Header="年龄" Width="80" Binding="{Binding 年龄, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="职务" Width="80" Binding="{Binding 职务, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>  
