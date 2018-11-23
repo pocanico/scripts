@@ -1,0 +1,2 @@
+select count(*) from table where DATEDIFF ([second], '2016-09-18 00:00:18', '2016-09-18 00:00:19')  > 0
+
