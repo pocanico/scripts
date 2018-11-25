@@ -1,2 +1,7 @@
-select count(*) from table where DATEDIFF ([second], '2016-09-18 00:00:18', '2016-09-18 00:00:19')  > 0
+select count(*) from reny where DATEDIFF ([second], '2016-09-18 00:00:18', '2016-09-18 00:00:19')  > 0
 
+convert(varchar(20),getdate()-1,23)+' 08:00:00'
+
+每天日期前移4个小时
+
+between convert(varchar(11),getdate(),120)+'08:00:00' and convert(varchar(11),dateadd(day,1,getdate()),120)+'08:00:00' 
